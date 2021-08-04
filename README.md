@@ -22,7 +22,8 @@
         - Create 3 different <p> tags
     - Set the innerHTML for the first <p> tag you created to display person #1's first and last name in a sentence
         - ex: "My name is Francisco Bermúdez"
-    - Set the innerHTML for the next 2 <p> tags to display a sentence stating the height of the person, and their favorite food, and color
+    - Set the innerHTML for the next <p> tag to display a sentence stating the height of the person
+    - Set the innerHTML for the final <p> tag to display a sentence stating their favorite food, and color
     - Using your knowledge about changing CSS with JS change the following styles for our <div> that we made:
         - color: "white"
         - fontSize = "50px"
