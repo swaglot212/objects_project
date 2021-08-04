@@ -1,5 +1,8 @@
+let divContent = document.querySelector("#content");
+let firstPerson = document.querySelector("#first");
+
 let info = {
-    0: {
+    a: {
         firstName: "Francisco",
         lastName: "Bermúdez",
         heightFeet: "6",
@@ -10,13 +13,43 @@ let info = {
             alert("This is " + this.firstName + " " + this.lastName);
         }
     },
-    1: {
-        // Person #2
+    b: {
+        firstName: "Andy",
+        lastName: "Perez",
+        heightFeet:"5",
+        heighInches: "8",
+        favoriteFood: "pizza",
+        favoriteColor: "purple",
+        sayFullName: function() {
+            alert("This is " + this.firstName + " " + this.lastName);
+        }
     },
-    2: {
-        // Person #3
+    c: {
+        firstName: "Adrian",
+        lastName: "Smith",
+        heightFeet: "5",
+        heighInches: "4",
+        favoriteFood: "Spaghetti",
+        favoriteColor: "red",
+        sayFullName: function() {
+            alert("This is " + this.firstName + " " + this.lastName);
+        }
     },
-    3: {
-        // Person #4
+    d: {
+        firstName: "Tom",
+        lastName: "Crafield",
+        heightFeet: "6",
+        heighInches: "1",
+        favoriteFood: "cheese burger",
+        favoriteColor: "yellow",
+        sayFullName: function() {
+            alert("This is " + this.firstName + " " + this.lastName);
+        }
     },
 }
+firstPerson.onclick = function() {
+
+    let newImage = document.createElement("p");
+    html.appendChild(newImage);
+}
+console.log(info);
